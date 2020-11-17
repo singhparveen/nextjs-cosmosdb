@@ -27,6 +27,8 @@ export default function Home({ CosmoData }) {
   return (
     <div>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
         <title>Next.JS with Azure Cosmos DB</title>
         <meta name="title" content="Next.JS with Azure Cosmos DB" />
         <meta
@@ -43,7 +45,7 @@ export default function Home({ CosmoData }) {
         />
         <meta
           property="og:image"
-          content="%PUBLIC_URL%/AppService-CosmosNext.png"
+          content="../public/AppService-CosmosNext.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -58,8 +60,10 @@ export default function Home({ CosmoData }) {
         />
         <meta
           property="twitter:image"
-          content="%PUBLIC_URL%/AppService-CosmosNext.png"
+          content="../public/AppService-CosmosNext.png"
         />
+        <link rel="icon" type="image/png" href="../public/favicon.ico" />
+        <link rel="apple-touch-icon" href="../public/favicon.ico" />
       </Head>
       <div className="w-full text-center bg-blue-800 flex flex-wrap items-center">
         <div className="text-3xl w-1/2 text-white mx-2 md:mx-auto py-10">
