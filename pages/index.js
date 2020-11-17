@@ -45,7 +45,7 @@ export default function Home({ CosmoData }) {
         />
         <meta
           property="og:image"
-          content="../public/AppService-CosmosNext.png"
+          content="AppService-CosmosNext.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -60,10 +60,10 @@ export default function Home({ CosmoData }) {
         />
         <meta
           property="twitter:image"
-          content="../public/AppService-CosmosNext.png"
+          content="AppService-CosmosNext.png"
         />
-        <link rel="icon" type="image/png" href="../public/favicon.ico" />
-        <link rel="apple-touch-icon" href="../public/favicon.ico" />
+        <link rel="icon" type="image/png" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="favicon.ico" />
       </Head>
       <div className="w-full text-center bg-blue-800 flex flex-wrap items-center">
         <div className="text-3xl w-1/2 text-white mx-2 md:mx-auto py-10">
